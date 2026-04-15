@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "kanban-api": {
-      "type": "url",
+      "type": "http",
       "url": "${user_config.api_url}/mcp",
       "headers": {
         "X-Api-Key": "${user_config.api_key}"
