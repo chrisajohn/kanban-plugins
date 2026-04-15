@@ -1,6 +1,6 @@
 {
   "name": "kanban-api",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Manage todos, projects, and knowledge base pages via the hosted kanban API. Slash commands, skills, and an autonomous agent for productivity workflows.",
   "author": {
     "name": "Chris John",
@@ -9,11 +9,15 @@
   "keywords": ["todos", "projects", "kanban", "productivity", "knowledge-base", "api"],
   "userConfig": {
     "api_url": {
-      "description": "Kanban API base URL (e.g. https://kanban-todos-production.up.railway.app)",
+      "title": "Kanban API URL",
+      "description": "Base URL of your kanban app (e.g. https://kanban-todos-production.up.railway.app)",
+      "type": "string",
       "sensitive": false
     },
     "api_key": {
+      "title": "API Key",
       "description": "API key for authentication (starts with kb_). Create one from the API Keys tab in the web UI.",
+      "type": "string",
       "sensitive": true
     }
   }
