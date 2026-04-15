@@ -2,6 +2,9 @@
   "name": "kanban-api",
   "version": "1.0.0",
   "description": "Manage todos, projects, and knowledge base pages via the hosted kanban API. Slash commands, skills, and an autonomous agent for productivity workflows.",
-  "author": "Chris John",
+  "author": {
+    "name": "Chris John",
+    "email": "chris.john@agencybloc.com"
+  },
   "keywords": ["todos", "projects", "kanban", "productivity", "knowledge-base", "api"]
 }
