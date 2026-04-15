@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "kanban-api": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp-server/index.js"],
+      "env": {
+        "KANBAN_API_URL": "${KANBAN_API_URL}",
+        "KANBAN_API_KEY": "${KANBAN_API_KEY}"
+      }
+    }
+  }
+}
